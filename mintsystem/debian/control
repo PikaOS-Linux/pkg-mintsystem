@@ -13,8 +13,10 @@ Depends: python3 (>= 3.3),
          aptitude,
          mint-common,
          zenity,
+         python3-gi-cairo,
          ${misc:Depends}
 Provides: mintsystem
+Enhances: mint-common
 Description: Linux Mint System Base Package
  Used by the desktop and other mint tools to gather
  information and process common system tasks.
