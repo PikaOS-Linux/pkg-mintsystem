@@ -7,6 +7,8 @@ add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 
 # Clone Upstream
+git clone https://github.com/linuxmint/mintsystem
+cp -rvf ./debian ./mintsystem
 cd ./mintsystem
 
 # Get build deps
